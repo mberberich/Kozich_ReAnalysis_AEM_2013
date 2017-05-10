@@ -15,7 +15,13 @@ output: html_document
  percentile_sequence_counts <- quantile(sequence_counts, prob=0.05)
 ```
 
+```{r include=TRUE}
+summary(sequence_counts)
+```
 
+```{r echo=TRUE, fig.align='right'}
+hist(sequence_counts)
+```
 
 ​**Scaling up.** The advantage of the dual-index approach is that a large number of samples
 can be sequenced using a number of primers equal to only twice the square root of the
