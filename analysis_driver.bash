@@ -29,3 +29,9 @@ mv data/references/silva.seed.pcr.align data/references/silva.v4.align
 
 # Run mothur through the various quality control steps
 code/mothur/mothur code/get_good_seqs.batch
+
+# Run mock community data to get error 
+code/mothur/mothur code/get_error.batch
+
+# Run cleaned up data through seqeunce clustering and make shared file and taxonomy file 
+code/mothur/mothur code/get_shared_otus.batch
