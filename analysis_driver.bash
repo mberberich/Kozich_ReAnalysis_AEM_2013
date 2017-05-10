@@ -35,3 +35,6 @@ code/mothur/mothur code/get_error.batch
 
 # Run cleaned up data through seqeunce clustering and make shared file and taxonomy file 
 code/mothur/mothur code/get_shared_otus.batch
+
+# Run NMDS 
+code/mothur/mothur code/get_nmds_data.batch
