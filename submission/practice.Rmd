@@ -1,4 +1,7 @@
 ---
+title: Reproducing Kozich et al 2013
+author: Megan Berberich
+date: "May 10, 2017"
 output: html_document
 ---
 
