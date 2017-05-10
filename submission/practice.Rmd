@@ -64,3 +64,6 @@ spurious OTUs). Similar to our previous results, ordination of the mouse fecal s
 again showed the separation between the early and late periods and increased stabilization
 with age (Fig. 4) (Mantel test coefficient, 0.81; P < 0.001). These results clearly
 indicate that our approach can be scaled to multiplex large numbers of samples.
+
+![](../results/figures/nmds_figure.png)
+
