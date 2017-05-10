@@ -30,7 +30,7 @@ samples than the early samples. In addition to the mouse fecal samples, we alloc
 pairs of indices to resequence our mock community. We generated `r format(round( million_sequence_counts,1), nsmall=1L)`
  million pairs of
 sequence reads from the 16S rRNA gene with an average coverage of `r format(round(average_sequence_counts,1), nsmall=1L)` pairs of reads per
-sample (95% of the samples had more than `format(round(r percentile_sequence_counts,1), nsmall=1L)` pairs of sequences) using a new collection
+sample (95% of the samples had more than `r format(round(percentile_sequence_counts, 1), nsmall=1L)` pairs of sequences) using a new collection
 of 8-nt indices (see the supplemental material). Although individual samples were expected
 to have various amplification efficiencies, analysis of the number of reads per index did
 not suggest a systematic positive or negative amplification bias that could be attributed
